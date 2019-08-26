@@ -94,7 +94,7 @@ const Home = () => {
               StackShare
             </a>
             , &amp; Founder{' '}
-            <a href='https://www.dwd.dev' aria-labelledby='Devs With Disabilities'>
+            <a href='https://www.dwd.dev' aria-label='Devs With Disabilities'>
               dwddev
             </a>
             .
