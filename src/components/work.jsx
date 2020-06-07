@@ -1,20 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Nike from '../assets/images/nikestore.jpg';
-import Sassandbide from '../assets/images/sassandbide.jpg';
-import SportsGirl from '../assets/images/sportsgirl.jpg';
-import Githunt from '../assets/images/githunt.png';
-import ScanTool from '../assets/images/scantool.jpg';
-import ddc from '../assets/images/ddc.jpg';
-import ReduxLogo from '../assets/images/tech/redux.png';
-import SassLogo from '../assets/images/tech/sass.png';
-import StyledLogo from '../assets/images/tech/styled.png';
-import WebpackLogo from '../assets/images/tech/webpack.png';
-import ReactLogo from '../assets/images/tech/react.png';
-import ApolloLogo from '../assets/images/tech/apollo.png';
-import GraphQlLogo from '../assets/images/tech/graphql.png';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import faMagento from '@fortawesome/fontawesome-free-brands/faMagento';
+import Evvntly from '../assets/images/evvnty.jpeg';
+import StackShare from '../assets/images/stackshare.jpeg';
 
 const PortfolioPanel = styled.div`
   font-family: 'Open Sans', 'Arial', Serif;
@@ -105,79 +93,30 @@ const Work = () => {
     <PortfolioPanel>
       <PortfolioItems>
         <PortfolioItem>
-          <a
-            href='https://www.doctor.com/solutions/universal-scheduling'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src={ddc} alt='Doctor.com' />
+          <a href='https://www.evvntly.com/' target='_blank' rel='noopener noreferrer'>
+            <img src={Evvntly} alt='evvntly.com' />
           </a>
-          <Tools>
-            <img src={ReactLogo} alt='react' />
-            <img src={ReduxLogo} alt='redux' />
-            <img src={WebpackLogo} alt='webpack' />
-            <img src={StyledLogo} alt='styled components' />
-          </Tools>
           <Description>
-            <a
-              href='https://www.doctor.com/solutions/universal-scheduling'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <h3>Doctor.com Provider Admin</h3>
+            <a href='https://www.evvntly.com/' target='_blank' rel='noopener noreferrer'>
+              <h3>Evvntly</h3>
             </a>
             <p>
-              A dashboard for healthcare providers to manage their listings, reviews, and
-              appointments.
+              A iOS and web app that allows you to search for events near you. Built with React and
+              React Native.
             </p>
           </Description>
         </PortfolioItem>
         <PortfolioItem>
-          <a href='https://www.doctor.com/scan-v3' target='_blank' rel='noopener noreferrer'>
-            <img src={ScanTool} alt='Scantool Doctor.com' />
+          <a href='http://stackshare.io' target='_blank' rel='noopener noreferrer'>
+            <img src={StackShare} alt='StackShare' />{' '}
           </a>
-          <Tools>
-            <img src={ReactLogo} alt='react' />
-            <img src={ReduxLogo} alt='redux' />
-            <img src={WebpackLogo} alt='webpack' />
-            <img src={SassLogo} alt='Sass' />
-          </Tools>
           <Description>
-            <a href='https://www.doctor.com/scan-v3' target='_blank' rel='noopener noreferrer'>
-              <h3>Doctor.com Scan tool</h3>
+            <a href='http://stackshare.io' target='_blank' rel='noopener noreferrer'>
+              <h3>StackShare</h3>
             </a>
             <p>
-              A powerful scan tool will that will assess doctors online presence and reputation
-              across the web.
-            </p>
-          </Description>
-        </PortfolioItem>
-        <PortfolioItem>
-          <a
-            href='https://github.com/johnnyxbell/githunt'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src={Githunt} alt='Githunt' />
-          </a>
-          <Tools>
-            <img src={ReactLogo} alt='react' />
-            <img src={GraphQlLogo} alt='graphql' />
-            <img src={ApolloLogo} alt='apollo' />
-            <img src={WebpackLogo} alt='webpack' />
-            <img src={StyledLogo} alt='styled components' />
-          </Tools>
-          <Description>
-            <a
-              href='https://github.com/johnnyxbell/githunt'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <h3>GitHunt</h3>
-            </a>
-            <p>
-              An open source tool that lets you search repos on github, returns relevant data and
-              the latest 5 issues.
+              A software discovery platform that lets you see all the best software tools and who's
+              using them. Built with React, Apollo, GraphQL & Rails.
             </p>
           </Description>
         </PortfolioItem>
@@ -185,45 +124,14 @@ const Work = () => {
           <a href='http://nikestore.com.au' target='_blank' rel='noopener noreferrer'>
             <img src={Nike} alt='Nike Store Australia' />{' '}
           </a>
-          <Tools>
-            <FontAwesomeIcon icon={faMagento} color='#f26322' />
-          </Tools>
           <Description>
             <a href='http://nikestore.com.au' target='_blank' rel='noopener noreferrer'>
               <h3>Nike Store Australia</h3>
             </a>
             <p>
-              An e-commerce site for Nike Australia{' '}
+              An e-commerce site for Nike Australia built in Magento
               <em>(The magento build of this site is no longer live)</em>.
             </p>
-          </Description>
-        </PortfolioItem>
-        <PortfolioItem>
-          <a href='http://sassandbide.com.au' target='_blank' rel='noopener noreferrer'>
-            <img src={Sassandbide} alt='Sass and Bide Worldwide' />
-          </a>
-          <Tools>
-            <FontAwesomeIcon icon={faMagento} color='#f26322' />
-          </Tools>
-          <Description>
-            <a href='http://sassandbide.com.au' target='_blank' rel='noopener noreferrer'>
-              <h3>Sass and Bide</h3>
-            </a>
-            <p>An e-commerce site for Australian womans high end brand Sass and Bide.</p>
-          </Description>
-        </PortfolioItem>
-        <PortfolioItem>
-          <a href='http://sportsgirl.com.au' target='_blank' rel='noopener noreferrer'>
-            <img src={SportsGirl} alt='Sportsgirl Australia' />
-          </a>
-          <Tools>
-            <FontAwesomeIcon icon={faMagento} color='#f26322' />
-          </Tools>
-          <Description>
-            <a href='http://sportsgirl.com.au' target='_blank' rel='noopener noreferrer'>
-              <h3>Sportsgirl</h3>
-            </a>
-            <p>An e-commerce site for Australian womans clothing brand Sportsgirl.</p>
           </Description>
         </PortfolioItem>
       </PortfolioItems>
