@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
 import backgroundImage from '../assets/images/bg.jpg';
-import Profile from '../assets/images/profile.jpg';
+import ProfileVideo from '../assets/videos/johnny.mp4';
 import faAngleDown from '@fortawesome/fontawesome-free-solid/faAngleDown';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Social from './social';
@@ -38,7 +38,7 @@ const SocialPanel = styled.div`
   right: 20px;
   @media (max-width: 414px) and (min-width: 320px) {
     position: initial;
-    width: 245px;
+    width: 130px;
     margin: auto;
     padding-top: 20px;
     opacity: 0.7;
@@ -47,12 +47,13 @@ const SocialPanel = styled.div`
   }
 `;
 
-const ProfilePic = styled.img`
+const ProfileVid = styled.video`
   width: 125px;
   height: 125px;
   border-radius: 100px;
   border: 3px solid white;
   box-shadow: #ccc 0 0 7px;
+  background: black;
 `;
 
 const BioText = styled.p`
@@ -87,10 +88,11 @@ const Paragraph = styled.p`
     color: white;
   }
   a {
-    color: #ffffff;
+    color: #00cdbe;
     text-decoration: none;
     :hover {
-      color: #5d93ff;
+      color: #00cdbe;
+      text-decoration: underline;
     }
   }
 `;
@@ -118,7 +120,10 @@ const Home = () => {
         <Social />
       </SocialPanel>
       <Bio>
-        <ProfilePic src={Profile} alt='Johnny Bell Profile Pic' />
+        <ProfileVid autoPlay playsInline muted loop>
+          <source src={ProfileVideo} type='video/mp4' />
+          Your browser does not support the video tag.
+        </ProfileVid>
         <BioText>
           G’day mates, I’m Johnny{' '}
           <span role='img' aria-label='Emoji Hand Wave'>
@@ -127,13 +132,12 @@ const Home = () => {
         </BioText>
         <Paragraph>Frontend Engineer, a11y advocate, &amp; speaker.</Paragraph>
         <Paragraph>
-          Currently @{' '}
-          <a href='https://stackshare.io' aria-label='StackShare'>
-            StackShare
+          I ship code at{' '}
+          <a href='https://weedmaps.com' aria-label='Weedmaps'>
+            Weedmaps
           </a>
           .
         </Paragraph>
-        <Paragraph>Australian. Tattoo Collector.</Paragraph>
       </Bio>
       <ScrollDown>
         <FontAwesomeIcon icon={faAngleDown} />

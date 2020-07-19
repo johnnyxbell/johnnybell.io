@@ -25,11 +25,11 @@ const SocialPanel = styled.div`
 const Social = () => {
   return (
     <SocialPanel>
-      <a href='https://www.twitter.com/johnnyxbell/' target='_blank' rel='noopener noreferrer'>
-        <FontAwesomeIcon icon={faTwitter} />
-      </a>
       <a href='https://www.linkedin.com/in/johnnyxbell/' target='_blank' rel='noopener noreferrer'>
         <FontAwesomeIcon icon={faLinkedinIn} />
+      </a>
+      <a href='https://www.twitter.com/johnnyxbell/' target='_blank' rel='noopener noreferrer'>
+        <FontAwesomeIcon icon={faTwitter} />
       </a>
       <a href='https://www.github.com/johnnyxbell/' target='_blank' rel='noopener noreferrer'>
         <FontAwesomeIcon icon={faGithub} />
