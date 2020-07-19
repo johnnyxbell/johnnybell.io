@@ -51,8 +51,8 @@ const ProfileVid = styled.video`
   width: 125px;
   height: 125px;
   border-radius: 100px;
-  border: 3px solid white;
-  box-shadow: #ccc 0 0 7px;
+  border: 1px solid white;
+  box-shadow: #ccc 0 0 5px;
   background: black;
 `;
 
