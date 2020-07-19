@@ -130,7 +130,7 @@ const SkillsLi = styled.li`
 
 const mySkills = [
   'React.js',
-  'javaScript',
+  'JavaScript',
   'Ruby',
   'Rails',
   'GraphQL',
@@ -141,7 +141,8 @@ const mySkills = [
   'Enzyme',
   'Flow',
   'Express',
-  'SCSS',
+  'Kubernetes',
+  'Docker',
   'GIT',
 ];
 const listMySkills = mySkills.map((mySkills) => <SkillsLi key={mySkills}>{mySkills}</SkillsLi>);
@@ -163,7 +164,8 @@ const About = () => {
           contributor and calling Orange County home! <br /> In the past I've worked for{' '}
           <a href='http://stackshare.io' target='_blank' rel='noopener noreferrer'>
             StackShare
-          </a>,{' '}
+          </a>
+          ,{' '}
           <a href='http://doctor.com' target='_blank' rel='noopener noreferrer'>
             Doctor.com
           </a>{' '}
