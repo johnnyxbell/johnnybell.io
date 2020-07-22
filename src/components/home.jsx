@@ -131,13 +131,6 @@ const Home = () => {
           </span>
         </BioText>
         <Paragraph>Frontend Engineer, a11y advocate, &amp; speaker.</Paragraph>
-        <Paragraph>
-          I ship code at{' '}
-          <a href='https://weedmaps.com' aria-label='Weedmaps'>
-            Weedmaps
-          </a>
-          .
-        </Paragraph>
       </Bio>
       <ScrollDown>
         <FontAwesomeIcon icon={faAngleDown} />
