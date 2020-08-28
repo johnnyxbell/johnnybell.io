@@ -155,19 +155,19 @@ const About = () => {
           I've been coding the internet for the past 10 years and working all over the world. Over
           that time, I’ve managed people, been a tech lead; now, I love being an individual
           contributor and calling Orange County home! <br /> In the past I've worked for{' '}
-          <a href='http://stackshare.io' target='_blank' rel='noopener noreferrer'>
+          <a href='https://stackshare.io' target='_blank' rel='noopener noreferrer'>
             StackShare
           </a>
           ,{' '}
-          <a href='http://doctor.com' target='_blank' rel='noopener noreferrer'>
+          <a href='https://doctor.com' target='_blank' rel='noopener noreferrer'>
             Doctor.com
           </a>{' '}
           and{' '}
-          <a href='http://foyerlive.com' target='_blank' rel='noopener noreferrer'>
+          <a href='https://foyer.live' target='_blank' rel='noopener noreferrer'>
             FoyerLive
           </a>{' '}
           in <strong>San Francisco CA</strong>, as well as{' '}
-          <a href='http://www.officeworks.com.au/' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.officeworks.com.au/' target='_blank' rel='noopener noreferrer'>
             Officeworks
           </a>
           ,{' '}
@@ -175,7 +175,7 @@ const About = () => {
             DT Digital
           </a>
           ,{' '}
-          <a href='http://ie.com.au/' target='_blank' rel='noopener noreferrer'>
+          <a href='https://ie.com.au/' target='_blank' rel='noopener noreferrer'>
             IE Digital
           </a>{' '}
           in <strong>Melbourne AU</strong>.
