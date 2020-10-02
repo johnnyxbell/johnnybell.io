@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
 import backgroundImage from '../assets/images/bg.jpg';
-import ProfileVideo from '../assets/videos/johnny.mp4';
+import Profile from '../assets/images/profile.jpg';
 import faAngleDown from '@fortawesome/fontawesome-free-solid/faAngleDown';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Social from './social';
@@ -47,13 +47,12 @@ const SocialPanel = styled.div`
   }
 `;
 
-const ProfileVid = styled.video`
+const ProfilePic = styled.img`
   width: 125px;
   height: 125px;
   border-radius: 100px;
   border: 1px solid white;
   box-shadow: #ccc 0 0 5px;
-  background: black;
 `;
 
 const BioText = styled.p`
@@ -120,10 +119,7 @@ const Home = () => {
         <Social />
       </SocialPanel>
       <Bio>
-        <ProfileVid autoPlay playsInline muted loop>
-          <source src={ProfileVideo} type='video/mp4' />
-          Your browser does not support the video tag.
-        </ProfileVid>
+        <ProfilePic src={Profile} alt='Johnny Bell Profile Pic' />
         <BioText>
           G’day mates, I’m Johnny{' '}
           <span role='img' aria-label='Emoji Hand Wave'>
@@ -131,6 +127,13 @@ const Home = () => {
           </span>
         </BioText>
         <Paragraph>Frontend Engineer, a11y advocate, &amp; speaker.</Paragraph>
+        <Paragraph>
+          I ship code at{' '}
+          <a href='https://weedmaps.com' aria-label='Weedmaps' target='_blank' rel='noopener noreferrer'>
+            Weedmaps
+          </a>
+          .
+        </Paragraph>
       </Bio>
       <ScrollDown>
         <FontAwesomeIcon icon={faAngleDown} />

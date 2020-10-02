@@ -135,11 +135,16 @@ const mySkills = [
   'Rails',
   'GraphQL',
   'Apollo',
+  'REST',
   'Redux',
+  'MobX',
+  'React Query',
   'Styled Components',
   'Jest',
   'Enzyme',
+  'React Testing Lib',
   'Flow',
+  'Next.js',
   'Express',
   'Kubernetes',
   'Docker',
@@ -151,34 +156,18 @@ const About = () => {
   return (
     <AboutPanel>
       <AboutInfo>
+        <AboutInfoCurrent>
+          Currently working at{' '}
+          <a href='http://weedmaps.com' aria-label='Weedmaps' target='_blank' rel='noopener noreferrer'>
+            Weedmaps
+          </a>{' '}
+          in <strong>Irvine, California</strong>.
+        </AboutInfoCurrent>
         <AboutInfoPast>
           I've been coding the internet for the past 10 years and working all over the world. Over
           that time, I’ve managed people, been a tech lead; now, I love being an individual
-          contributor and calling Orange County home! <br /> In the past I've worked for{' '}
-          <a href='https://stackshare.io' target='_blank' rel='noopener noreferrer'>
-            StackShare
-          </a>
-          ,{' '}
-          <a href='https://doctor.com' target='_blank' rel='noopener noreferrer'>
-            Doctor.com
-          </a>{' '}
-          and{' '}
-          <a href='https://foyer.live' target='_blank' rel='noopener noreferrer'>
-            FoyerLive
-          </a>{' '}
-          in <strong>San Francisco CA</strong>, as well as{' '}
-          <a href='https://www.officeworks.com.au/' target='_blank' rel='noopener noreferrer'>
-            Officeworks
-          </a>
-          ,{' '}
-          <a href='http://dt.com.au/' target='_blank' rel='noopener noreferrer'>
-            DT Digital
-          </a>
-          ,{' '}
-          <a href='https://ie.com.au/' target='_blank' rel='noopener noreferrer'>
-            IE Digital
-          </a>{' '}
-          in <strong>Melbourne AU</strong>.
+          contributor and calling Orange County home! <br /> In the past I've worked for StackShare, Doctor.com
+          and FoyerLive in <strong>San Francisco CA</strong>, as well as Officeworks, DT Digital, IE Digital in <strong>Melbourne AU</strong>.
           <p>
             Outside of technology, I like going to concerts, hiking, relaxing with my other half,
             tasting new craft beers, and annoying my wife by getting more tattoos.

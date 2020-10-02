@@ -2,7 +2,7 @@
   "name": "johnnybell.io",
   "private": true,
   "description": "Johnny Bell Portfolio",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -15,29 +15,27 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/react-fontawesome": "^0.1.11",
-    "@sentry/browser": "^5.19.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@sentry/browser": "^5.24.2",
     "babel-eslint": "^10.1.0",
     "error-overlay-webpack-plugin": "^0.4.1",
-    "eslint": "^7.5.0",
-    "eslint-config-prettier": "^6.11.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.3",
-    "gatsby": "^2.24.4",
+    "eslint-plugin-react": "^7.21.3",
+    "gatsby": "^2.24.67",
     "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
-    "gatsby-plugin-styled-components": "^3.3.10",
-    "prettier": "^2.0.5",
+    "gatsby-plugin-styled-components": "^3.3.12",
+    "prettier": "^2.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.2.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/johnnyxbell/johnnybell.io"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.30"
   }
 }
