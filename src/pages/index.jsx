@@ -23,7 +23,7 @@ const Index = () => {
         <title>Johnny Bell Portfolio - Frontend Engineer</title>
         <meta
           name='description'
-          content="Hi, I'm Johnny Bell, a Frontend Engineer living in San Francisco. I have experience in javaScript, React, Ruby, Rails, GraphQl & Apollo."
+          content="Hi, I'm Johnny Bell, a Frontend Engineer living in Orange County. I have experience in javaScript, React, Ruby, Rails, GraphQl & Apollo."
         />
       </Helmet>
       <GlobalStyle />
