@@ -14,8 +14,8 @@
   "devDependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/react-fontawesome": "^0.1.11",
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@sentry/browser": "^5.24.2",
     "babel-eslint": "^10.1.0",
     "error-overlay-webpack-plugin": "^0.4.1",
@@ -37,5 +37,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/johnnyxbell/johnnybell.io"
+  },
+  "dependencies": {
+    "gatsby-plugin-webfonts": "^2.1.1"
   }
 }
