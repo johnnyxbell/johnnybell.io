@@ -8,16 +8,13 @@ module.exports = {
     },
     'gatsby-plugin-styled-components',
     {
-      resolve: 'gatsby-plugin-webfonts',
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: {
-          google: [
-            {
-              family: 'Open Sans',
-              variants: ['200', '400', '600']
-            }
-          ]
-        }
+        fonts: [
+          'limelight',
+          'Open Sans\:300,400,600'
+        ],
+        display: 'swap'
       }
     },
   ],
