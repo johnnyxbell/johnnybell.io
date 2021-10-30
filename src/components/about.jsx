@@ -159,9 +159,8 @@ const About = () => {
         <AboutInfoPast>
           I've been coding the internet for the past 10 years and working all over the world. Over
           that time, I’ve managed people, been a tech lead; now, I love being an individual
-          contributor and calling Orange County home! <br /> In the past I've worked for Weedmaps in
-          Orange County. StackShare, Doctor.com and FoyerLive in <strong>San Francisco CA</strong>,
-          as well as Officeworks, DT Digital, IE Digital in <strong>Melbourne AU</strong>.
+          contributor and calling Orange County home! <br /> In the past I've worked at startups in
+          San Francisco, agencies & corporate companies in Melbourne, Australia.
           <p>
             Outside of technology, I like going to concerts, hiking, relaxing with my other half,
             and annoying my wife by getting more tattoos.
