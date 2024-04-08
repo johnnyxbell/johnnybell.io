@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Nike from '../assets/images/nikestore.jpg';
-import Evvntly from '../assets/images/evvnty.jpeg';
+import Evvntly from '../assets/images/evvntly.jpeg';
 import StackShare from '../assets/images/stackshare.jpeg';
 
 const PortfolioPanel = styled.div`
@@ -101,7 +101,7 @@ const Work = () => {
               <h3>Evvntly</h3>
             </a>
             <p>
-              A iOS and web app that allows you to search for events near you. Built with React and
+              A iOS, Android and web app that allows you to search for events near you. Built with React and
               React Native.
             </p>
           </Description>

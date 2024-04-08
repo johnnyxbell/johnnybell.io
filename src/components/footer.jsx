@@ -98,7 +98,7 @@ const Footer = () => {
       </ContactPanel>
       <Navigation>
         <Copyright>
-          © Copyright 2020 - Made with{' '}
+          © Copyright 2024 - Made with{' '}
           <span role='img' aria-label='Love Heart' style={{color: 'red', padding: '0 0 0 4px'}}>
             ❤️
           </span>{' '}

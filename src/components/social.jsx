@@ -34,13 +34,6 @@ const Social = () => {
       <a href='https://www.github.com/johnnyxbell/' target='_blank' rel='noopener noreferrer'>
         <FontAwesomeIcon icon={faGithub} />
       </a>
-      <a
-        href='https://stackoverflow.com/story/johnnyxbell'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <FontAwesomeIcon icon={faStackOverflow} />
-      </a>
     </SocialPanel>
   );
 };
